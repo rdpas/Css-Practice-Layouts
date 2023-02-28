@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="/mobile.css">
+  <title>Css Layouts</title>
+</head>
+<body>
+  <header class="header">
+    <div class="navbar">
+      <a href="/index.html" class="logo-link"><h1 class="logo">Our Grid Layout</h1></a>
+      <div class="nav-links">
+        <a href="index.html" >Main</a>
+        <a href="service.html" >Service</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </div>
+    </div>
+  </header>
+  <section class="container-contact-hero">
+        <div class="contact-hero-title">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="contact-form">
+          <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+  </section>     
+  
+  <footer class="footer">
+    <div class="footer-content-1">
+      <a href="https://www.google.com/maps" target="_blank" class="address-link">
+        <h3 class="footer-title">Location</h3>
+        <p>123 Main Street</p>
+        <p>Anywhere, US 11111-1111</p>
+      </a>
+    </div>
+   
+    <div class="footer-content-2">
+      <h3 class="footer-title">Contact</h3>
+      <a href="tel:+"><p>Tel. 555-111-1111</p></a>
+      <a href="mailto:"><p>Email. info@somewhere.com</p></a>
+    </div>
+  </footer>
+  <div class="copyright"> <p>&copy; Copyright 2023 Tech Company LLC</p></div>
+</body>
+</html>

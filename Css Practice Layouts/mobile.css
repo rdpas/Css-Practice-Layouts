@@ -1,0 +1,200 @@
+/* Start media query for under 768px */
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: block;
+    text-align: center;
+    padding-top: 1em;
+  }
+
+  .navbar .nav-links  {
+    display: block;
+    text-align: center;
+    padding-top: .4em;
+  }
+  .navbar .nav-links a {
+    display: block;
+    text-align: center;
+    padding-bottom: .5em;
+  }
+
+
+  section.container-hero {
+    background-image:url(/images/cristiano-firmani-tmTidmpILWw-unsplash.jpg);
+    display: block;
+    text-align: center;
+    padding: 2em 1em;
+    margin-top: .1em;
+  }
+  .container-hero h1 {
+    display: block;
+  }
+
+  .container-hero .hero-p2 {
+    display: none;
+  }
+  .container-hero .hero-p3 {
+    display: none;
+  }
+  /* End of media query for Navbar and Hero Section under 768px */
+
+  /*  Start media query for main page articles section under 768px */
+  .container-articles {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    justify-content: center;
+    
+  }
+
+  .container-articles .article-image-1 {
+    text-align: center;
+    max-width: 600px;
+  }
+
+  .container-articles .article-image-1 img {
+    
+    box-shadow: 3px 5px #fe6a94;
+    border-radius: 50%;
+    width: 350px;
+    padding: .2em;
+   }
+  .article-p-1  {
+    text-align: center;
+    width: 375px;
+    padding: .5em;
+    margin: 0 auto;
+  }
+
+  .container-articles .article-image-2 {
+    text-align: center;
+    max-width: 600px;
+    
+  }
+
+  .container-articles 
+  .article-image-2 img {
+    
+    box-shadow: 3px 5px #fe6a94 ;
+    border-radius: 50%;
+    width: 350px;
+    padding: .2em;
+   }
+  .article-p-2  {
+    text-align: center;
+    width: 375px;
+    padding: .5em;
+    margin: 0 auto;
+  }
+
+  .container-articles .article-image-3 {
+    text-align: center;
+    max-width: 600px;
+  }
+
+  .container-articles .article-image-3 img {
+    
+    box-shadow: 3px 5px #fe6a94 ;
+    border-radius: 50%;
+    width: 350px;
+    padding: .2em;
+   }
+  .article-p-3  {
+    text-align: center;
+    width: 375px;
+    padding: .2em;
+    margin: 0 auto;
+  }
+  /* End media query for main page articles section under 768px */
+
+  /* start media query for service page container services section */
+
+  .container-services {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+
+  }
+
+  .services-hero-p1 {
+    padding: .3em;
+    font-size: 24px;
+  }
+  /* End media query for service page container services section */
+
+  /* Start media query for contact */
+
+  .container-contact-hero {
+    box-sizing: border-box;
+    background-image:url(/images/cristiano-firmani-tmTidmpILWw-unsplash.jpg);
+    image-rendering: pixelated;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-spacing: 0;
+    max-width: 375px;
+    height: 78vh;
+    overflow: hidden;
+    align-content: center;
+    margin-bottom: .2em;
+    margin-top: .2em;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+  }
+
+  .container-contact-hero .contact-hero-title {
+    padding: .2em;
+  }
+
+  .contact-form input[type=text], select, textarea {
+    width: 350px; 
+    padding: 12px; 
+    border: 1px solid #aa0404; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  .contact-form input[type=submit] {
+    background-color: #aa0404;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form input[type=submit]:hover {
+    background-color: #fe6a94;
+  }
+  
+  .contact-form form {
+    border-radius: 5px;
+    background-color: none;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+
+ 
+
+  /* End media query for contact */
+
+  /* Start media query for footer under 768px */
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: .5em auto;
+  }
+
+  /* End footer media query under 768px */
+
+  
+
+  
+}
+
